@@ -1,0 +1,4 @@
+# ======= 小米社区 ======= #
+payload:
+  # 如有必要可以DOMAIN-SUFFIX,vip.miui.com
+  - DOMAIN,api.vip.miui.com

@@ -1,0 +1,7 @@
+# ======= 快手 ======= #
+payload:
+  # issue#3 提供
+  # 个人主页似乎有延迟，未测试
+  # 一个域名连不上会请求另一个，两个同时使用就会生效了
+  - DOMAIN-SUFFIX,gifshow.com
+  - DOMAIN-SUFFIX,ksapisrv.com

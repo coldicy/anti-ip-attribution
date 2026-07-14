@@ -1,0 +1,4 @@
+# ======= 完美世界电竞App ======= #
+payload:
+  # issues#65
+  - DOMAIN,api.wmpvp.com

@@ -1,0 +1,4 @@
+# ======= 其乐论坛 ======= #
+payload:
+  # issue#11 提供
+  - DOMAIN,keylol.com # 评论区

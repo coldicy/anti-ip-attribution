@@ -1,0 +1,4 @@
+# ======= TapTap ======= #
+payload:
+  # issue#16提供
+  - DOMAIN,api.taptapdada.com

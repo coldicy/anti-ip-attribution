@@ -1,0 +1,22 @@
+# ======= 斗鱼 ======= #
+payload:
+  # issue#23
+  # direct斗鱼直播流 https://github.com/wbt5/real-url/issues/340
+  - DOMAIN-SUFFIX,hls3-akm.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,hlsa-akm.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,hls1a-akm.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,hls3a-akm.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,vplay1a.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,vplay3a.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,ws-tct.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,akm-tct.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,tx2play1.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,tc-tct1.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,ws3.douyucdn.cn,DIRECT # #78
+  #direct弹幕
+  - DOMAIN-SUFFIX,wsproxy.douyu.com,DIRECT
+  - DOMAIN-SUFFIX,danmuproxy.douyu.com,DIRECT
+  #direct图片
+  - DOMAIN-SUFFIX,img.douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,douyucdn.cn
+  - DOMAIN-SUFFIX,douyu.com

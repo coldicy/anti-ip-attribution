@@ -1,0 +1,5 @@
+# ======= Lofter ======= #
+payload:
+  - DOMAIN-SUFFIX,lofter.com
+  - DOMAIN,yaolu.yuedu.163.com
+  - DOMAIN-SUFFIX,lf127.net,DIRECT

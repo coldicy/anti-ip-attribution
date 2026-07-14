@@ -1,0 +1,4 @@
+# ======= 虎牙 ======= #
+payload:
+  # issue#17提供
+  - DOMAIN-SUFFIX,huya.com

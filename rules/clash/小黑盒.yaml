@@ -1,0 +1,5 @@
+# ======= 小黑盒 ======= #
+payload:
+  # 小黑盒主域名，包括文章之类（图片CDN等静态资源不在此域名范围内）
+  # issue#39
+  - DOMAIN,api.xiaoheihe.cn
