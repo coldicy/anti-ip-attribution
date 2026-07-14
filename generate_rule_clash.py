@@ -22,21 +22,9 @@ for i in range(1, len(result), 2):
     # 按行切分并循环处理
     for line in ruleContent.splitlines():
         line_striped = line.strip()
-        # 1. 过滤空行
+        # 过滤空行
         if not line_striped:
             continue
-        # # 2. 过滤掉开头是 # 的纯注释行
-        # if line_striped.startswith('#'):
-        #     continue
-        # 3. 只处理以 "- " 开头的 YAML 规则行
-        # if line_striped.startswith('- '):
-        #     # 剥离前面的 "- " 符号
-        #     pure_rule = line_striped[2:].strip()
-        #     # 去除规则右侧的行内注释（提取 # 号前面的部分）
-        #     pure_rule = pure_rule.split('#')[0].strip()
-        #     # 如果清洗后不为空，放入最终列表
-        #     if pure_rule:
-        #         cleaned_lines.append(pure_rule)
         cleaned_lines.append("  " + line_striped)
     # 将列表拼接回标准文本
     cleaned_text = "\n".join(cleaned_lines)
