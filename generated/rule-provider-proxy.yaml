@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-provider-proxy.yaml v0.3.1 641da2bd55e8413317c37ac3e0e383aa3eeb301a
+# anti-ip-attribution rule-provider-proxy.yaml v0.3.1 4366f6b9503ee3f2fd847586e14beff0905bbca3
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash的Rule Provider功能，详见https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 payload:
@@ -21,7 +21,6 @@ payload:
 - DOMAIN,gsp0.baidu.com
 - DOMAIN,hm.baidu.com
 - DOMAIN,www.baidu.com
-- DOMAIN,tiebac.baidu.com
 - IP-CIDR,180.76.76.0/24,no-resolve
 - DOMAIN,httpsdns.baidu.com
 - DOMAIN,c.tieba.baidu.com

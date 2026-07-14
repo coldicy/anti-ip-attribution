@@ -26,7 +26,7 @@ config:
         - DOMAIN,hm.baidu.com # 百度统计
         - DOMAIN,www.baidu.com # 网友提供贴吧IP定位接口
         # Update #32
-        - DOMAIN,tiebac.baidu.com # 贴吧App API域名
+        # - DOMAIN,tiebac.baidu.com # 贴吧App API域名 境外节点貌似会导致无法正常访问
         # - DOMAIN-KEYWORD,tieba # 极端方案，可能会代理图片CDN
         # issue#35#issuecomment-1438885974
         - IP-CIDR,180.76.76.0/24 # Public DNS

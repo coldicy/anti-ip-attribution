@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution parser.yaml v0.3.1 641da2bd55e8413317c37ac3e0e383aa3eeb301a
+# anti-ip-attribution parser.yaml v0.3.1 4366f6b9503ee3f2fd847586e14beff0905bbca3
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash for Windows的配置文件预处理功能，详见https://docs.cfw.lbyczf.com/contents/parser.html
 parsers:
@@ -51,7 +51,6 @@ parsers:
     - "DOMAIN,gsp0.baidu.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,hm.baidu.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,www.baidu.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN,tiebac.baidu.com,IP\u5F52\u5C5E\u5730"
     - "IP-CIDR,180.76.76.0/24,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,httpsdns.baidu.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,c.tieba.baidu.com,IP\u5F52\u5C5E\u5730"

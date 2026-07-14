@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx.list v0.3.1 641da2bd55e8413317c37ac3e0e383aa3eeb301a
+# anti-ip-attribution quantumultx.list v0.3.1 4366f6b9503ee3f2fd847586e14beff0905bbca3
 # https://github.com/SunsetMkt/anti-ip-attribution
 # QuantumultX分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -41,7 +41,6 @@ DOMAIN,fclog.baidu.com,IP
 DOMAIN,gsp0.baidu.com,IP
 DOMAIN,hm.baidu.com,IP
 DOMAIN,www.baidu.com,IP
-DOMAIN,tiebac.baidu.com,IP
 IP-CIDR,180.76.76.0/24,IP
 DOMAIN,httpsdns.baidu.com,IP
 DOMAIN,c.tieba.baidu.com,IP
